@@ -3,10 +3,12 @@
 .container {
 	width: 50% !important;
 }
-.container > button .btn btn-success{
+
+.container>button .btn btn-success {
 	float: right;
 }
-div:nth-child(1) > input[type='button']{
+
+div:nth-child(1)>input[type='button'] {
 	margin-top: 5px;
 }
 
@@ -14,25 +16,41 @@ div:nth-child(1) > input[type='button']{
 	margin: 0px;
 }
 
-div:nth-child(4) > .text {
+div:nth-child(4)>.text {
 	width: 30%;
-    float: left;
-    content: '';
-    clear: both;
+	float: left;
+	content: '';
+	clear: both;
 }
-div:nth-child(4) > input[type='button'] {
+
+div:nth-child(4)>input[type='button'] {
 	margin-left: 10px;
 }
 
-#addrDetail, #addr{
-	margin-top: 5px;	
+#addrDetail, #addr {
+	margin-top: 5px;
 }
-    
-button[type='submit']{
+
+button[type='submit'] {
 	content: '';
-    clear: both;
+	clear: both;
 	float: right;
 }
+
 #addr {
 	display: block;
+}
+
+#address {
+	margin: 5px 0;
+}
+
+#detailAddress {
+	width: 60%;
+	display: inline;
+}
+
+#extraAddress {
+	width: 39%;
+	display: inline;
 }
