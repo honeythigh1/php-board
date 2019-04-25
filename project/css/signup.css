@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.container {
+	width: 50% !important;
+}
+.container > button .btn btn-success{
+	float: right;
+}
+div:nth-child(1) > input[type='button']{
+	margin-top: 5px;
+}
+
+.container>form.row {
+	margin: 0px;
+}
+
+div:nth-child(4) > .text {
+	width: 30%;
+    float: left;
+    content: '';
+    clear: both;
+}
+div:nth-child(4) > input[type='button'] {
+	margin-left: 10px;
+}
+
+#addrDetail, #addr{
+	margin-top: 5px;	
+}
+    
+button[type='submit']{
+	content: '';
+    clear: both;
+	float: right;
+}
+#addr {
+	display: block;
+}
