@@ -47,7 +47,7 @@ button[type='submit'] {
 
 #detailAddress {
 	width: 60%;
-	display: inline;
+	display: inline-block;
 }
 
 #extraAddress {
